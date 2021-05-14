@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the kk Star Ratings plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: kk Star Ratings 4.2.0\n"
+"Project-Id-Version: kk Star Ratings 4.2.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/kk-star-ratings\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
