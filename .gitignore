@@ -1,0 +1,10 @@
+/.vscode
+/*.cache
+/svn
+/bin
+/node_modules
+/vendor
+/readme.txt
+/freemius
+/freemius.php
+TODO.md

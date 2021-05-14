@@ -1,0 +1,58 @@
+{
+    "name": "bhittani/kk-star-ratings",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "description": "Allow blog visitors to involve and interact more effectively with your website by rating posts.",
+    "homepage": "https://github.com/kamalkhan/kk-star-ratings",
+    "authors": [
+        {
+            "role": "developer",
+            "name": "Kamal Khan",
+            "email": "shout@bhittani.com",
+            "homepage": "http://bhittani.com"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/kamalkhan/kk-star-ratings",
+        "issues": "https://github.com/kamalkhan/kk-star-ratings/issues"
+    },
+    "autoload": {},
+    "autoload-dev": {},
+    "extra": {
+        "branch-alias": {
+            "dev-master": "4.0-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist",
+        "platform": { "php": "5.6" }
+    },
+    "require": {
+        "php": ">=5.6"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.15"
+    },
+    "scripts": {
+        "cs-fix": "php-cs-fixer fix --using-cache=no",
+        "cs-check": "php-cs-fixer fix --dry-run --using-cache=no"
+    },
+    "archive": {
+        "exclude": [
+            "*",
+            "!/index.php",
+            "!/kkStarRatings.php",
+            "!/readme.txt",
+            "!/LICENSE.txt",
+            "!/freemius.php",
+            "!/src",
+            "!/views",
+            "!/public",
+            "!/freemius",
+            "!/languages"
+        ]
+    }
+}
