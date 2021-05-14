@@ -3,18 +3,18 @@
     "type": "wordpress-plugin",
     "license": "GPL-2.0-or-later",
     "description": "Allow blog visitors to involve and interact more effectively with your website by rating posts.",
-    "homepage": "https://github.com/kamalkhan/kk-star-ratings",
+    "homepage": "https://github.com/wkiane/kk-star-ratings",
     "authors": [
         {
             "role": "developer",
-            "name": "Kamal Khan",
-            "email": "shout@bhittani.com",
-            "homepage": "http://bhittani.com"
+            "name": "Proteina Digital",
+            "email": "eduardo@proteina.digital",
+            "homepage": "https://proteina.digital"
         }
     ],
     "support": {
-        "source": "https://github.com/kamalkhan/kk-star-ratings",
-        "issues": "https://github.com/kamalkhan/kk-star-ratings/issues"
+        "source": "https://github.com/wkiane/kk-star-ratings",
+        "issues": "https://github.com/wkiane/kk-star-ratings/issues"
     },
     "autoload": {},
     "autoload-dev": {},

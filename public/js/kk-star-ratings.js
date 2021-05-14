@@ -29,23 +29,25 @@ jQuery(document).ready(function ($) {
 
         function onClick(e) {
             var $star = $(this);
-
-            ajax({
-                id: $el.data('id'),
-                slug: $el.data('slug'),
-                score: $star.data('star'),
-                best: $('[data-star]', $el).length
-            }, function (response, status, xhr) {
-                var $newEl = $(response);
-                $newEl.addClass($el.attr('class'));
-                $el.replaceWith($newEl);
-                destroy();
-                apply($newEl, options);
-            }, function (xhr, status, err) {
-                if (xhr.responseJSON && xhr.responseJSON.error) {
-                    console.error(xhr.responseJSON.error);
-                }
-            });
+            var $score = $star.data('star');
+            if($score >= 4) {
+                ajax({
+                    id: $el.data('id'),
+                    slug: $el.data('slug'),
+                    score: $score,
+                    best: $('[data-star]', $el).length
+                }, function (response, status, xhr) {
+                    var $newEl = $(response);
+                    $newEl.addClass($el.attr('class'));
+                    $el.replaceWith($newEl);
+                    destroy();
+                    apply($newEl, options);
+                }, function (xhr, status, err) {
+                    if (xhr.responseJSON && xhr.responseJSON.error) {
+                        console.error(xhr.responseJSON.error);
+                    }
+                });
+            }
         }
 
         function destroy() {
