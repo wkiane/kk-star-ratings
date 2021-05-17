@@ -6,8 +6,8 @@
  * Plugin Nick:     kksr
  * Plugin URI:      https://github.com/kamalkhan/kk-star-ratings
  * Description:     Allow blog visitors to involve and interact more effectively with your website by rating posts.
- * Author:          Kamal Khan
- * Author URI:      http://bhittani.com
+ * Author:          Proteina Digital
+ * Author URI:      https://proteina.digital
  * Text Domain:     kk-star-ratings
  * Domain Path:     /languages
  * Version:         4.2.1

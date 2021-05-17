@@ -1,4 +1,4 @@
-# Copyright (C) 2021 Kamal Khan
+# Copyright (C) 2021 Proteina Digital
 # This file is distributed under the same license as the kk Star Ratings plugin.
 msgid ""
 msgstr ""
@@ -27,7 +27,7 @@ msgid "Allow blog visitors to involve and interact more effectively with your we
 msgstr ""
 
 #. Author of the plugin
-msgid "Kamal Khan"
+msgid "Proteina Digital"
 msgstr ""
 
 #. Author URI of the plugin

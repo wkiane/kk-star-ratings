@@ -258,7 +258,7 @@ If you discover any security related issues, please email `shout@bhittani.com` i
 
 ## Credits
 
--   [Kamal Khan](https://github.com/kamalkhan)
+-   Proteina Digital
 -   [All Contributors][link-contributors]
 
 ## Attribution
