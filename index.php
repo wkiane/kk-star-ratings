@@ -10,7 +10,7 @@
  * Author URI:      https://proteina.digital
  * Text Domain:     kk-star-ratings
  * Domain Path:     /languages
- * Version:         4.2.1
+ * Version:         4.2.2
  * License:         GPLv2 or later
  */
 
